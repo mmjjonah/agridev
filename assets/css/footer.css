@@ -1,0 +1,9 @@
+.footer__block {
+    padding: 15px;
+    background: #4d1010;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    color: #fff;
+    padding: 20px 0px;
+}

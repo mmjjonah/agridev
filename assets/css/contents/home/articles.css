@@ -1,0 +1,131 @@
+polygon{
+	fill: tomato;
+}
+
+.article__body{
+	min-height: 225px !important;	
+}
+
+.f_article{
+	background: #eee;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.article__body{
+	padding: 15px;
+}
+
+.f_article p{
+
+	z-index: 2;
+
+}
+
+.stl{
+	height: 100px;
+	background-color: tomato;
+	z-index: 1;
+}
+
+.article__header{
+	position: relative;
+	background-color: tomato;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 70px;
+	z-index: 2;
+}
+
+.col-md-3 .article__title{
+	position: relative;
+	z-index: 3;
+	transform: translateY(25px);
+	transition: 0.5s;
+}
+
+.article__header:after{
+	content: "";
+    display: block;
+    height: 70px;
+    width: 100%;
+    background-size: contain;
+    background: url(assets/img/triangle.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -70px;
+    -webkit-transition:  1s height linear;
+    transition:  .5s;
+    transform-origin: top;
+    z-index: 1;
+	transform: rotateZ(0deg) translateX(0px);
+	transform-origin: right;
+}
+
+.col-md-12 .article__header:after{
+
+    background: none;
+
+}
+
+.f_article:hover .article__header:after{
+	transform: rotateZ(15deg) translateX(-8px);
+	transition: 0.5s;
+}
+
+.f_article:hover .article__title{
+	transform: translateY(0px);
+	transition: 0.5s;
+}
+
+.readmore{
+	display: none;
+	transition: .25s display linear;
+}
+
+.readmore a{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 140px;
+    margin-left: -70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid;
+    padding: 10px 0px;
+    transition:  0.25 background linear;
+}
+
+.readmore a:hover{
+	text-decoration: none;
+	background: #fff;
+	color: #222;
+	border-color: #fff;
+}
+
+.col-md-3 .f_article:hover  .readmore{
+	background:rgba(0, 0, 0, 0.67);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.col-md-3, .col-md-12{
+
+	transition: 0.5s;
+
+}
+
+.col-md-3 .close_detail{
+	
+	display: none;
+
+}

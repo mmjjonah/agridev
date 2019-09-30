@@ -1,0 +1,25 @@
+.underline {
+	background: #bf7d1af2;
+    height: 2px;
+    width: 310px;
+}
+
+.form-control:focus {
+	box-shadow: 0 0 0 0.2rem #bf7d1af2 !important;
+	border-color: #bf7d1af2  !important;
+}
+#adiresy:hover {
+	background-color: #efef !important;
+	color: #fff !important;
+}
+label::after {
+	content: " :";
+}
+.bg-inscription {
+	background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freshfruitportal.com%2Fassets%2Fuploads%2F2016%2F06%2FTomate-shutterstock_94720522.jpg&f=1&nofb=1");
+}
+
+.formincription{
+	padding-left: 70px;
+	padding-right: 70px;
+}

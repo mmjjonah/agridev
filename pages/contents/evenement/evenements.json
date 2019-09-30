@@ -1,0 +1,38 @@
+[
+	{
+		"title" : "FIER Mada",
+		"icon":"admin",
+		"type" : "type1",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, iste, aut. Aperiam ad non tempora explicabo illo. Minima quam nulla, sed officia dolorem impedit deleniti iure maxime pariatur, quis, fugit!",
+		"par": ""
+	},
+	{
+		"title" : "Foire Internationale de l'Agriculture",
+		"icon":"admin",
+		"type" : "type1",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, iste, aut. Aperiam ad non tempora explicabo illo. Minima quam nulla, sed officia dolorem impedit deleniti iure maxime pariatur, quis, fugit!",
+		"par": ""
+	},
+	{
+		"title" : "Fiofanana Fambolena Vary",
+		"icon":"admin",
+		"type" : "type2",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, iste, aut. Aperiam ad non tempora explicabo illo. Minima quam nulla, sed officia dolorem impedit deleniti iure maxime pariatur, quis, fugit!",
+		"par": "Papriz"
+	},
+	{
+		"title" : "Fiofanana Fiompiana Trondro",
+		"icon":"admin",
+		"type" : "type2",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, iste, aut. Aperiam ad non tempora explicabo illo. Minima quam nulla, sed officia dolorem impedit deleniti iure maxime pariatur, quis, fugit!",
+		"par": ""
+	},
+	{
+		"title" : "Fiofanana maboly vary an-tanety",
+		"icon":"admin",
+		"type" : "type2",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, iste, aut. Aperiam ad non tempora explicabo illo. Minima quam nulla, sed officia dolorem impedit deleniti iure maxime pariatur, quis, fugit!",
+		"par": ""
+	}
+
+]

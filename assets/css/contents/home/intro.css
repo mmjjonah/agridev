@@ -1,0 +1,33 @@
+
+#intro{
+	display: block;
+    color: white;
+    background: url(assets/img/bg_home.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.intro_content{
+	padding: 8vw 0px;
+}
+
+.intro_content h2{
+    color: rgba(66, 111, 7, 0.8);;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -10vw;
+    font-size: 20vw !important;
+    text-shadow: 5px 5px 0 rgba(255,255,255,0.2);
+}
+
+.intro_content p{
+    z-index: 2;
+    display: inline-block;
+    background:rgba(77, 16, 16, 0.8);
+    padding: 20px;
+}
+
+.intro_content p{
+ font-size: 1.3rem;
+}

@@ -1,0 +1,70 @@
+.nav-container{
+	display: flex;
+	flex-direction: row;
+	border-bottom: 0px solid #222;
+	color: green;
+	padding-top: 1rem;
+}
+
+.nav-container *{
+	color: green !important;
+}
+
+.nav-logo{
+	order: 2;
+	flex-grow: 2;
+}
+
+.nav-left{
+	order: 1;
+	flex-grow: 5;
+}
+
+.nav-right{
+	order: 3;
+	flex-grow: 5;
+	text-align: right;
+}
+
+.nav-left .list-inline-item a,
+.nav-right .list-inline-item a{
+	margin: 15px !important;
+	display: inline-block;
+	color: white;
+	text-decoration: none !important;
+}
+.nav-left .list-inline-item a:hover,
+.nav-right .list-inline-item a:hover{
+	margin: 15px !important;
+	display: inline-block;
+	color: white;
+	text-decoration: none !important;
+}
+
+header, header > a {
+	background: #fff;
+	font-size: 16px;
+}
+
+header {
+	min-height: 86px !important;
+}
+
+#logo_agridev {
+	height: 50px;
+}
+
+.dropdown-menu{
+}
+
+.dropdown-item{
+	width: max-content;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+.dropdown-item:hover{
+	color :rgba(77, 16, 16, 0.89) !important;
+	background-color: white;
+}
+

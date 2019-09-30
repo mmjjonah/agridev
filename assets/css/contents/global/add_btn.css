@@ -1,0 +1,33 @@
+#btnPlus{
+	font-size: 10vw;
+	display: flex;
+	align-items: center;
+	min-height: 260px;
+	opacity: 0.5;
+	transition: 0.3s;
+	justify-content: center;
+}
+
+#btnPlus span{
+	cursor: pointer;
+}
+
+#btnPlus.active span.fa-plus{
+	display: none;
+}
+
+#btnPlus:not(.active) span.fa-circle{
+	display: none;
+}
+
+#btnPlus span.fa-circle{
+	float: right;
+}
+
+#btnPlus.active{
+	justify-content: flex-end;
+	font-size: 1vw;
+	min-height: 10px;
+	transition: 0.3s;
+	color: red;
+}

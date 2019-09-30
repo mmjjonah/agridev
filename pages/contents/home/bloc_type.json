@@ -1,0 +1,26 @@
+[
+	{
+		"title": "tantsaha",
+		"icon": "i",
+		"content": "Mpandray anjara fototra eo amin'ny fampandrosoana ny tontolon'ny fambolena sy fiompiana ny Tantsaha, nomena sehatra manokana.",
+		"btnText": "Sehatra ho an'ny tantsaha",
+		"bg": "photo-1",
+		"link": "?page=acteur&type=agriculteur"
+	},
+	{
+		"title": "mpanangombokatra",
+		"icon": "m",
+		"content": "Ho fifandanjan'ny tolotra sy ny tinady, ny fangaharaharana eo amin'ny fametrahana ny vidin'ny vokatra eny ifotony, ary fanamorana ny fifaneraserana eo amin'ny <strong>mpanangombokatra</strong> sy ny tantsaha, sehatra hafahana manao izany rehetra izany ny <strong>AgriDev</strong>",
+		"btnText": "Sehatra ho an'ny Mpanangombokatra",
+		"bg": "photo-2",
+		"link": "?page=acteur&type=recolteur"
+	},
+	{
+		"title": "mpamatsy",
+		"icon": "d",
+		"content": "Antoka iray ahafahana mampiroborobo ny fambolena sy ny fiompiana ny fanamorana ny fahazoan'ireo tantsaha ireo akora ilaina sy ireo fitaovana ampiasaina, mba hampitombo sy hanatsara ny kalitao ny vokatra. Nomena sehatra manoka izy ireo noho izany ahafany mifanerasera mivantana amin'ireo tantsaha.",
+		"btnText": "Sehatra ho an'ny Mpanangombokatra",
+		"bg": "photo-3",
+		"link": "?page=acteur&type=fournisseur"
+	}
+]

@@ -1,0 +1,55 @@
+#f_recherche .input-group{
+	height: 60px;
+}
+
+#f_recherche .btn{
+	padding: 1em 1.5em !important;
+}
+
+#f_recherche #inp_search::placeholder{
+	color: rgba(0, 0, 0, 0.6) !important;
+}
+
+#f_recherche #inp_search{
+	transition: 0.5s;
+	background-color: rgba(255,255,255,0.5);
+	border: none;
+}
+
+#f_recherche #inp_search.apercu{
+	transition: 0.5s;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.recherche_section{
+	padding: 50px 0px;
+	background: #4d1010;
+}
+
+#map_mada{
+	width: 220px;
+	height: 220px;
+	margin: 0px;
+}
+
+#map_mada path{
+	stroke: white;
+	stroke-width: 3;
+	fill: #238000;
+	transition: 0.3s;
+}
+
+#map_mada path:hover:not(.active){
+	fill: white;
+	cursor: pointer;
+}
+
+#map_mada path:hover:not(.active){
+
+}
+
+#map_mada path.active{
+	fill: tomato;
+	transition: 0.3s;
+	opacity: 1 !important;
+}

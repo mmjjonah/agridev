@@ -1,0 +1,11 @@
+[
+	{
+		"nom": "Moteur à pompe"
+		,"prix": 30000000
+		,"quantite": 5
+		,"unite": "1"
+		,"infoPlus": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+		,"img" : "fruits.jpg"
+		,"fornisseur" : "Rabe"
+	}
+]

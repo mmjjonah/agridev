@@ -1,0 +1,38 @@
+.kaonty-content {
+	margin: 0px 150px 0px 150px;
+	padding: 15px; 
+}
+.underline {
+	background: black;
+    height: 2px;
+    width: 60px;
+}
+.form-control:focus {
+	box-shadow: 0 0 0 0.2rem #28a745 !important;
+	border-color: #28a745 !important;
+}
+.btn-warning {
+	color: #fff;
+}
+.btn-warning:hover {
+	color: #fff !important;
+}
+.footer__block {
+	position: fixed;
+	width: 100%;
+	bottom:0;
+}
+
+.bg-connexion {
+	background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Foutremers360.com%2Fwp-media%2Fuploads%2Fbfi_thumb%2FHealth-Benefits-of-Lychee-Fruit1-mk04d5g4gph9bd9g31c2a1lbfv058mpvakaand3h8s.jpeg&f=1&nofb=1");
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-connexion>.row{
+	background-color: rgba(0,0,0,0.2);
+}
+
+.h2{
+	text-shadow: 0 0 10px rgba(0,0,0, 0.5);
+}

@@ -1,0 +1,135 @@
+polygon{
+	fill: tomato;
+}
+
+.event_body{
+	min-height: 225px !important;	
+}
+
+.f_event{
+	background: #eee;
+	position: relative;
+	overflow-x: hidden;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.event_body{
+	padding: 15px;
+}
+
+.f_event{
+
+	z-index: 2;
+
+}
+
+.stl{
+	height: 100px;
+	background-color: tomato;
+	z-index: 1;
+}
+
+.event_header{
+	position: relative;
+	background-color: tomato;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 70px;
+	z-index: 2;
+}
+
+.col-md-3 .event_title{
+	position: relative;
+	z-index: 3;
+	transform: translateY(25px);
+	transition: 0.5s;
+}
+
+.event_header:after{
+	content: "";
+    display: block;
+    height: 70px;
+    width: 100%;
+    background-size: contain;
+    background: url(assets/img/triangle.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -70px;
+    -webkit-transition:  1s height linear;
+    transition:  .5s;
+    transform-origin: top;
+    z-index: 1;
+	transform: rotateZ(0deg) translateX(0px);
+	transform-origin: right;
+}
+
+.col-md-12 .event_header:after{
+
+    background: none;
+
+}
+
+.f_event:hover .event_header:after{
+	transform: rotateZ(15deg) translateX(-8px);
+	transition: 0.5s;
+}
+
+.f_event:hover .event_title{
+	transform: translateY(0px);
+	transition: 0.5s;
+}
+
+.readmore{
+	display: none;
+	transition: .25s display linear;
+}
+
+.readmore a{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 140px;
+    margin-left: -70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid;
+    padding: 10px 0px;
+    transition:  0.25 background linear;
+}
+
+.readmore a:hover{
+	text-decoration: none;
+	background: #fff;
+	color: #222;
+	border-color: #fff;
+}
+
+.col-md-3 .f_event:hover  .readmore{
+	background:rgba(0, 0, 0, 0.67);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.col-md-3, .col-md-12{
+
+	transition: 0.5s;
+
+}
+
+.col-md-3 .close_detail{
+	
+	display: none;
+
+}
